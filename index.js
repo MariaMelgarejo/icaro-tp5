@@ -10,3 +10,20 @@ function concatenarArrays(array1,array2){
 }
 
 console.log(concatenarArrays(array1,array2))
+
+
+console.log(" ");
+console.log("Ejercicio 2");
+console.log(" ");
+
+function esVocal(caracter){
+    const vocales = ["a", "e", "i", "o", "u"]
+    return vocales.includes(caracter.toLowerCase());
+    
+}
+console.log(esVocal("f"))
+console.log(esVocal("e"))
+console.log(esVocal("E"))
+
+
+   
